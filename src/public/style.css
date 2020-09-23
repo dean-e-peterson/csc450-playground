@@ -1,0 +1,60 @@
+body {
+  background-color: darkslategray;
+}
+
+p {
+  margin: 1em;
+}
+
+h1, h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+.page h1, .page h2 {
+  color: black;
+}
+
+.page {
+  margin: auto;
+  background-color: lightgray;
+  min-height: 300px;
+  width: 90%;
+}
+
+.logo {
+  float: left;
+}
+
+.login {
+  float: right;
+}
+
+input {
+  float: right;
+}
+
+nav {
+  /* background-color: gray; */
+  height: 2em;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  padding: .25em 1em;
+}
+
+nav li.chat {
+  float: right;
+}
+
+.slide {
+  background-color: white;
+  width: 100%;
+  height: 200px;
+}
