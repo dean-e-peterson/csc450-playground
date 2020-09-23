@@ -1,0 +1,19 @@
+{
+  "name": "csc450-playground",
+  "version": "1.0.0",
+  "description": "Experimental code that is not part of the main CSC450 apartment management project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dean-e-peterson/csc450-playground.git"
+  },
+  "author": "Dean Peterson <petersod8@csp.edu>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dean-e-peterson/csc450-playground/issues"
+  },
+  "homepage": "https://github.com/dean-e-peterson/csc450-playground#readme"
+}
