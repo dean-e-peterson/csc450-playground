@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
 });
 
 app.post('/testpost', (req, res) => {
-  const [ keyb, keyc ] = req.body;
-  console.log(keyb, keyc);
+  const { key } = req.body;
+  console.log(key);
   res.send('Looks good');
 });
 
