@@ -1,13 +1,19 @@
 const express = require('express');
-const app = express();
+const api = require('./api');
+
 const port = 5000;
 const host = 'localhost';
+
+const app = express();
 
 // Statically server files under public at /.
 app.use(express.static('public'));
 
 // Parse request bodies that are in JSON.
 app.use(express.json());
+
+// Routes in other files
+app.use('/api', api);
 
 app.get('/', (req, res) => {
   res.send('Hello there');
