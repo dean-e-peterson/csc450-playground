@@ -22,7 +22,10 @@ function App() {
     }
     xhr.open("POST", "/api/login");
     xhr.setRequestHeader("Content-type", "application/json");
-    xhr.send('{ "key": "some value" }');    
+    xhr.send(JSON.stringify({
+      "email": formData.email,
+      "password": formData.password
+    }));    
   }
 
   useEffect(() => {
